@@ -19,9 +19,8 @@ header {
 
 .home{
   font-size: 125%;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 10px;
+  border-radius: 10px;
+  padding: 50px;
 }
 
 nav a {
@@ -36,8 +35,8 @@ nav a {
   background-repeat: no-repeat;
   background-color: #BEF1C3;
   font-size: 125%;
-  margin-left: 40px;
-  margin-top: 10px;
+  border-radius: 10px;
+  padding: 50px;
 }
 
 .service1{
@@ -57,13 +56,12 @@ nav a {
 
 .contact{
   border-radius: 10px;
-  margin-top: 10px;
+  padding: 50px;
   font-size: 125%;
-  margin-left: 40px;
 }
 .details{
   position: relative;
-  margin-left: 950px;
-  margin-top: -105px;
+  margin-left: 900px;
+  margin-top: -175px;
   font-size: 125%;
 }
