@@ -69,3 +69,29 @@ nav a {
   margin-top: -175px;
   font-size: 125%;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Specific sizing for your elements */
+.logo {
+  width: 200px; /* Set your desired width here */
+}
+
+.home img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+.services img {
+  width: 100%;
+  max-width: 425px;
+  height: auto;
+}
+
+.contact img {
+  width: 100%;
+  max-width: 800px;
