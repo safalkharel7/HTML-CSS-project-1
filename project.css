@@ -29,29 +29,33 @@ nav a {
   text-decoration: none;
 }
 
+.offer{
+  margin-top: 75px;
+  margin-left: 50px;
+}
 .services{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #BEF1C3;
-  font-size: 125%;
-  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
   padding: 50px;
+}
+
+.services > div {
+  flex: 1;
+  min-width: 300px;
+  box-sizing: border-box;
 }
 
 .service1{
   background-color: #BEF1C3;
-  padding: 10px;
 }
 
 .service2{
   background-color: #e6f4f4;
-  padding: 10px;
+  background-position: center;
 }
 
 .service3{
   background-color: #BEF1C3;
-  padding: 10px;
 }
 
 .contact{
